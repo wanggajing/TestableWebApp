@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestableWebApp.Models.Repository
 {
-    interface IRepository
+    public interface IRepository
     {
         IEnumerable<GuestResponse> GetAllResponse();
         void AddResponse(GuestResponse response);
